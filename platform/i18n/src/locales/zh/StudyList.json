@@ -1,8 +1,8 @@
 {
-  "Empty": "无",
-  "Modality": "成像设备",
+  "Empty": "無",
+  "Modality": "成像設備",
   "PatientName": "患者姓名",
-  "StudyDate": "检查日期",
-  "StudyDescription": "描述",
-  "StudyList": "检查列表"
+  "StudyDate": "檢查日期",
+  "StudyDescription": "說明",
+  "StudyList": "檢查列表"
 }
