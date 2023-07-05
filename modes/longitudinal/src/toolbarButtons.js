@@ -337,6 +337,24 @@ const toolbarButtons = [
     },
   },
   {
+    id: 'ricky',
+    type: 'ohif.action',
+    props: {
+      type: 'toggle',
+      icon: 'icon-mpr',
+      label: 'ricky',
+      commands: [
+        {
+          commandName: 'toggleHangingProtocol',
+          commandOptions: {
+            protocolId: 'mpr',
+          },
+          context: 'DEFAULT',
+        },
+      ],
+    },
+  },
+  {
     id: 'Crosshairs',
     type: 'ohif.radioGroup',
     props: {

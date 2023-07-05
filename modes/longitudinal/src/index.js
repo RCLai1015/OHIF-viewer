@@ -128,6 +128,7 @@ function modeFactory() {
         'Capture',
         'Layout',
         'MPR',
+        'ricky', // ricky added
         'Crosshairs',
         'MoreTools',
       ]);

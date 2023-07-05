@@ -63,25 +63,25 @@ const mpr: Types.HangingProtocol.Protocol = {
         layoutType: 'grid',
         properties: {
           rows: 1,
-          columns: 3,
+          columns: 3, // 3, ricky
           layoutOptions: [
             {
               x: 0,
               y: 0,
-              width: 1 / 3,
+              width: 1 / 2, // 1/3,
               height: 1,
             },
             {
-              x: 1 / 3,
+              x: 1 / 2, // 1/3,
               y: 0,
-              width: 1 / 3,
-              height: 1,
+              width: 1 / 2, // 1/3,
+              height: 0.5, // 1,
             },
             {
-              x: 2 / 3,
-              y: 0,
-              width: 1 / 3,
-              height: 1,
+              x: 1 / 2, // 2/3,
+              y: 1 / 2,
+              width: 1 / 2, // 1/3,
+              height: 0.5, // 1,
             },
           ],
         },
